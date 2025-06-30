@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faleminderit!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #e0f7fa; /* e njëjta ngjyrë si faqja kryesore */
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      color: #00796b;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #444;
+      font-size: 1.2em;
+    }
+
+    img {
+      width: 160px;
+      margin-top: 20px;
+      animation: float 2.5s ease-in-out infinite;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: grey;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1em;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #3700b3;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<h1 class="text-2xl font-bold">Faleminderit! 🎓</h1>
+<p class="text-base">Rregjistrimi u krye me sukses.</p>
+
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyaDhtMDdwc2R4bWdvOHZyenhxeWF2MDN3bmtoeGpkbTJjNTU2dHRqdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUPGGDNsLvqsBOhuU0/giphy.gif"alt="Faleminderit GIF">
+
+  <a href="per-maturantet.html" class="btn">⬅ Kthehu te faqja kryesore</a>
+
+</body>
+</html>

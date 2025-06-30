@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Për maturantët</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h3, h4 {
+      text-align: center;
+    }
+
+    h1 {
+      color: teal;
+      margin: 20px auto;
+    }
+
+    .text-base {
+      max-width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #0077cc;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    label {
+      margin-top: 10px;
+    }
+
+    input, textarea, button {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .password-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .password-wrapper input {
+      flex: 1;
+    }
+
+    .toggle-psw {
+      background: none;
+      border: none;
+      font-size: 18px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: teal;
+      font-weight: bold;
+    }
+
+    .site-footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #c8e6e6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Mirësevini në këtë website!</h1>
+
+  <h4 style="color: black;">
+    "Për maturantët" do t'ju vijë në ndihmë për provimet e maturës shtetërore dhe për çdo paqartësi që mund të keni.
+    Është një website që do t'ju ndihmojë jo vetëm me vetëbesimin tuaj, por edhe në zgjedhjen e degës që dëshironi për në universitet.
+    Çdo gjë është e mundur, prandaj kini besim te vetja juaj dhe do t’ia dilni.
+  </h4>
+<div class="foto-container">
+    <img src="https://i.imgur.com/2cC8ERw.jpeg" width="150px" height="150px" alt="Logo për maturantët">
+    <img src="https://media1.giphy.com/media/dxCSx7uOPQjVtpw4P5/giphy.gif" width="150px" height="150px" alt="Diplomim">
+    <img src="https://media3.giphy.com/media/J1YFTAeTT3UAxnl6Bx/giphy.gif" width="150px" height="150px" alt="Inkurajim">
+  </div>
+
+  <section id="services" class="section services">
+    <h3>Shërbimet:</h3>
+    <div class="grid">
+      <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeItxEbpySg-BZqey4-sUD_HxyXUZJEHJsOH3ieWDLeS4JUyA/viewform?usp=header" target="_blank">Pyetësor për ty ♡</a></div>
+      <div class="card"><a href="https://e-albania.al" target="_blank">E-Albania</a></div>
+      <div class="card"><a href="https://smip.al" target="_blank">Smip.al</a></div>
+      <div class="card"><a href="https://ualbania.al" target="_blank">U-Albania</a></div>
+      <div class="card"><a href="https://albanian.cri.cn/culture/more/3104/20220616/764443.html" target="_blank">Si të zgjedhni degën e duhur për ju?</a></div>
+      <div class="card"><a href="https://psikologuonline.al/test/" target="_blank">Si të përballoni stresin para provimeve?</a></div>
+      <div class="card"><a href="https://maturashteterore.com/provimet-nder-vite/" target="_blank">Provimet e maturës ndër vite</a></div>
+      <div class="card"><a href="https://sigal.com.al/si-te-kujdesemi-per-shendetin-gjate-ndryshimit-te-stineve/" target="_blank">Kujdesi për shëndetin fizik</a></div>
+      <div class="card"><a href="https://www.ego.al/si-te-kujdeseni-per-shendetin-mendor-udhezues-praktik/" target="_blank">Kujdesi për shëndetin mendor</a></div>
+    </div>
+  </section>
+
+  <h3>Rregjistrohu:</h3>
+  <form onsubmit="shko(event)">
+    <label for="name">Emër dhe mbiemër:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="username">Emër përdoruesi:</label>
+    <input type="text" id="username" name="username" required />
+
+    <label for="password">Fjalëkalim:</label>
+    <input type="password" id="password" name="password" required />
+
+    <label for="email">Adresë email-i:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Numër telefoni:</label>
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" />
+
+    <label for="message">Pyetje:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <button type="submit">Rregjistrohu</button>
+  </form>
+
+  <h3>Logohu:</h3>
+  <form>
+    <label for="login-email">Adresë email-i:</label>
+    <input id="login-email" type="email" name="login-email" autocomplete="username" required>
+
+    <label for="login-password">Fjalëkalim:</label>
+    <div class="password-wrapper">
+      <input id="login-password" type="password" name="login-password" autocomplete="current-password" required>
+      <button type="button" aria-label="Shfaq fjalëkalimin" class="toggle-psw">👁️</button>
+    </div>
+<script>
+  const toggleBtn = document.querySelector('.toggle-psw');
+  const passwordInput = document.getElementById('login-password');
+
+  toggleBtn.addEventListener('click', function () {
+    const isPassword = passwordInput.type === 'password';
+    passwordInput.type = isPassword ? 'text' : 'password';
+    toggleBtn.textContent = isPassword ? '💖' : '🖤'; 
+  });
+</script>
+
+    <label><input type="checkbox" name="remember"> Më kujto</label>
+    <button type="submit">Logohu</button>
+
+    <div class="options">
+      <a href="harrove-fjalekalimin.html" class="forgot-link">Harrove fjalëkalimin?</a>
+    </div>
+  </form>
+
+  <nav>
+    <a href="rrethmeje.html">Rreth meje</a>
+    <a href="#services">Shërbimet</a>
+    <a href="#regjistrim">Regjistrim</a>
+  </nav>
+
+  <footer class="site-footer">
+    © 2025-2026 Për maturantët
+  </footer>
+
+  <script>
+    function shko(event) {
+      event.preventDefault();
+      window.location.href = "faleminderit.html";
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Kyçu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2 style="color:teal">Kyçu:</h2>
+    <input type="text" id="username" placeholder="Emër përdoruesi">
+    <input type="password" id="password" placeholder="Fjalëkalimi">
+    <button onclick="login()">Kyçu</button>
+  </div>
+
+  <script>
+    function login() {
+      const user = document.getElementById("username").value;
+      const pass = document.getElementById("password").value;
+
+      if (user === "admin" && pass === "1234") {
+        window.location.href = "dashboard.html";
+      } else {
+        alert("Të dhënat janë gabim!");
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,435 @@
+h1 {
+  color: #4a00e0;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #e3f2fd;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 30px;
+}
+
+input, textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid teal;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  border-radius: 10px;
+  margin: 20px auto;"
+}
+.site-footer {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 15px;
+  font-size: 14px;
+  color: #444;
+  margin-top: 40px;
+}
+.phone 
+{ position: relative; text-indent: 1ch; white-space: nowrap;  } 
+.phone:before { background-color: white; border-right: 1ch solid white; content: attr(data-phone); display: block; left :0 px; margin-left: auto;
+  margin-right: auto; overflow: hidden; position: absolute; text-indent: 0; top: 0; width: 5ch; } 
+@media screen and (min-width:0\0) and (min-resolution: +
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #4a00e0;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3700b3;
+}
+
+ h1 {
+  font-size: 2em; 
+}
+
+p {
+  font-size: 1.2em;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+.login-form {
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-psw {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.login-form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-form {
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-psw {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.login-form {
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-psw {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.login-form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-form .options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.login-form .options a {
+  font-size: 0.9rem;
+  color: #007BFF;
+}
+
+@media (max-width: 480px) {
+  .login-form {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+h2 {
+  text-align: center; 
+  font-weight: bold;
+}
+.service-box {
+  display: block;
+  margin: 20px auto; 
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: blue;
+}
+
+body {
+  background: #dbf9fd; /* Sfond blu i çelët si në imazh */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 30px auto;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0097a7; /* blu e qetë për konturë */
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+button {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #4a00e0, #8e2de2);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #3700b3, #7a1bf3);
+  transform: scale(1.03);
+}
+
+h1, h2, h3, h4 {
+  color: #2c3e50;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card, .service-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.card:hover, .service-box:hover {
+  transform: scale(1.05);
+  background-co
+.foto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.foto {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.foto:hover {
+  transform: scale(1.05);
+}
+  .toggle-psw {
+  font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif;
+}
+input {
+  background-color: #e0f7fa;
+  border: 1px solid #ccc; 
+  padding: 10px;
+  border-radius: 6px;
+}
+
