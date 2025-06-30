@@ -4,3 +4,4 @@
 ├── faleminderit.html
 ├── style.css
 ├── CNAME  (përmaturantet.com)
+├── konfirmim.html
