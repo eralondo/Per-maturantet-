@@ -6,4 +6,4 @@
 ├── index.html
 ├── style.css
 ├── CNAME  (përmaturantet.com)
-├── dashboard.html
+
